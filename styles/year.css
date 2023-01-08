@@ -17,11 +17,12 @@
     padding-right: 200px;
     text-align: right ;
 }
+.profile-img{
+    margin-top: 5%;
+}
 .banner-title{
-    font-size: 65px;
+    font-size: 50px;
     font-weight: 700;
-    size: 65px;
-    color:white;
     padding-top: 180px;
 
 }
@@ -51,6 +52,10 @@ margin-bottom: 150px;
     display:flex ;
     gap: 200px;
 }
+.fail-title{
+    font-size: 35px;
+    color: black;
+}
 .profile-img{
     padding-left:10%;
 }
@@ -61,7 +66,84 @@ margin-bottom: 150px;
 .faile-list{
     margin-top: 18%;
 }
-    
-
-    
+    /* icon part */
+    .plan{
+        padding-left: 45%;
+        padding-top: 10%;
+        font-size: 25px;
+    }
+    .plane-name{
+        display: flex;
+        gap: 35px;
+        margin-left: 30%;
+        padding-top:30px;
+        font-size: 19px;
+        text-align: center;
+        /*  minddset part*/
+    }
      
+.mindset-contain{
+background-image: url('../images/gradient1.png' ), url('../images/watch.png');
+background-repeat: no-repeat;
+background-position: center;
+height: 300px;
+width: 1140px;
+border-radius: 8px;
+margin-left: 350px;
+padding-top: 10%;
+}
+.mindset-title{
+    padding: 40px;
+    color: white;
+}
+.btn-mind{
+    height: 23px;
+    width: 88px;
+color: #1743a1;
+line-height: 5px;
+border-radius: 9px;
+border: none;
+padding: 15px;
+margin-left:48px;
+}
+/* contact section */
+
+.future-title{
+    height: 53px;
+width: 148px;
+color: white;
+}
+
+.future-description{
+    height: 78px;
+width: 485px;
+color: white;
+}
+.contact{
+    background-color:black;
+    display: flex;
+    gap: 100px;
+    padding: 130px 500px;
+
+}
+
+.contact-me{
+    color: white;
+  
+}
+.sub{
+   color: white;
+   display: flex;
+   padding-left: 150%;
+   
+
+}
+.contact-container.section-title{
+    text-align: center;
+    border-color: aliceblue;
+}
+.section-title{
+    padding-left: 180%;
+    margin-bottom: 10px;
+}
+
