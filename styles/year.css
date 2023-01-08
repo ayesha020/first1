@@ -119,31 +119,44 @@ color: white;
 width: 485px;
 color: white;
 }
-.contact{
-    background-color:black;
+.contact-container{
     display: flex;
-    gap: 100px;
-    padding: 130px 500px;
-
-}
-
-.contact-me{
+    gap: 300px;
+    background-color: black;
     color: white;
-  
-}
-.sub{
-   color: white;
-   display: flex;
-   padding-left: 150%;
-   
+   padding-left: 350px;
+   padding-right: 250px;
+   padding-top: 150px;
+   padding-bottom: 200px;
 
 }
-.contact-container.section-title{
-    text-align: center;
-    border-color: aliceblue;
+/* future part */
+.future-title{
+    font-size: 45px;
+    padding-bottom: 25px;
+}
+.contact-num{
+    padding-bottom: 20px;
+}
+.future-description{
+   padding-bottom: 20px; 
 }
 .section-title{
-    padding-left: 180%;
-    margin-bottom: 10px;
+    font-size: 35px;
+    padding-bottom: 25px;
 }
-
+.email{
+    height: 50px;
+    width: 400px;
+    border-radius: 8px;
+    border: none;
+}
+.submit-btn{
+    height: 50px;
+    width: 150px;
+margin-top: 20px;
+background-color:#005fac;
+font-size: 20px;
+color: white;
+border-radius: 8px;
+}
