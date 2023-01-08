@@ -45,7 +45,23 @@ border: none;
 padding: 15px;
 margin-bottom: 150px;
 
-}   
+}  
+ /*failure part  */
+.failure{
+    display:flex ;
+    gap: 200px;
+}
+.profile-img{
+    padding-left:10%;
+}
+.fail-description{
+    margin-left:8%;
+}
+
+.faile-list{
+    margin-top: 18%;
+}
+    
 
     
      
